@@ -9,6 +9,7 @@ pipeline {
                     ls -lah
                 '''
             }
+        }
         stage('Deploy') {
             steps {
                 sh 'echo "Deploy"'
